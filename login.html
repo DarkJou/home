@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="shorcut icon" href="img/marca1-trans.png">
+    <script src="apppp.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section>
+        <div class="titulo">
+            <h1>Formulario de Contacto</h1>
+        </div>
+        <div class="fondo-form">
+            <div class="sub-titulo">
+                <h2>Contacto</h2>
+                <form method="POST">
+                    <input type="text" class="input" name="nombre" id="nombre" placeholder=" Escriba su nombre :)" 
+                    required autofocus title="Ingresar nombre...">
+                    <br><br>
+                    <input type="text" class="input" name="apellido" id="apellido" placeholder=" Escriba su apellido :)" 
+                    required autofocus title="Ingresar apellido...">
+                    <br><br>
+                    <input type="email" class="input" name="email" id="email" placeholder=" Escriba su email :)" 
+                    required autofocus title="Ingresar email...">
+                    <br><br>
+                     
+                    <textarea rows="10" cols="40" class="txtarea" name="mensaje" id="mensaje" placeholder="Escriba su mensaje porfavor :) (opcional)" 
+                    autofocus title="Ingresar mesanje..."></textarea>
+                    <br><br>
+                    <input type="submit" class="boton" name="boton" id="boton" value="Volver" onclick="volver()">
+                    <br>
+                    <input type="submit" class="boton" name="enviar" id="enviar" value="Enviar" onclick="sumit()">
+                </form>
+                <hr>
+
+            </div>
+        </div>
+    </section>
+    <footer id="contacto">
+        <div class="contenedor-footer-contacto">
+            <div class="contacto-us">
+                <h2 class="brand">&copy;DarkjouDesing</h2>
+                <p>Somos expertos en la creacion de tus sueños.</p>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/johansmith.garciaflores" id="face" class="icon">
+                    <i  class='bx bxl-facebook bx-burst' ></i>
+                </a>
+                <a href="https://api.whatsapp.com/qr/M73X2OCZDQW5P1" id="whats" class="icon">
+                    <i  class='bx bxl-whatsapp bx-burst' ></i>
+                </a>
+                <a href="https://www.instagram.com/johansmithgf/?hl=es-la" id="insta" class="icon">
+                    <i  class='bx bxl-instagram bx-burst' undefined ></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    
+</body>
+</html>
