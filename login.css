@@ -1,0 +1,203 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    width: 100%;
+    height: 90%;
+    background-image: linear-gradient(to right, #868f969d 0%, #5961649c 100%), url(img/f-login.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.titulo
+{
+    text-align: center;
+    margin: 18px 0 0 0;
+    font-size: 30px;
+    color: #fff;
+}
+.fondo-form
+{
+    background: #00000054;
+    width: 450px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 40px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .9);
+}
+.sub-titulo
+{
+    font-size: 22px;
+    margin: 15px;
+    color: #fff;
+}
+.input
+{
+    width: 250px;
+    font-size: 16px;
+    color: #fff;
+    background: #88888838;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.9);
+}
+.txtarea
+{
+    color: #fff;
+    background: #88888838;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.9);
+}
+.boton
+{
+    color: #fff;
+    font-size: 20px;
+    background: #3e8cd4;
+    width: 150px;
+    margin: 0 0 8px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(54, 54, 54, 0.486);
+    border: #3e8cd4;
+    transition: translate , background 2s ease;
+    animation: anin 2s infinite;
+}
+.boton:hover
+{
+    transform: translate(10%);
+    background: linear-gradient(to right, #173ce0 0%, #8593e0 100%);
+}
+@keyframes anin
+{
+    from
+    {
+        color: #4fe24a;
+    }
+}
+
+/* footer */
+footer
+{
+    background-image: linear-gradient(to right, #243949dc 0%, #517fa4de 100%);
+    padding-bottom: 0.1px;
+}
+.contenedor-footer-contacto
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.contacto-us
+{
+    width: 40%;
+    color: #fff;
+}
+.brand
+{
+    font-weight: 600;
+    font-size: 40px;
+}
+.brand+p{
+    font-weight: 500;
+}
+.social-media
+{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.icon
+{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+.icon i
+{
+    font-size: 30px;
+    line-height: 60px;
+}
+.line
+{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
+}
+#face
+{
+    background: #2D5BD4;
+}
+#face:hover
+{
+    background: #fff;
+    color: #2D5BD4;
+}
+#whats
+{
+    background: #32C44F;
+}
+#whats:hover
+{
+    background: #fff;
+    color: #32C44F;
+}
+#insta
+{
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);;
+}
+#insta:hover
+{
+    background: #fff;
+    color: #e65834;
+}
+@media screen and (max-width: 485px) 
+{
+    .fondo-form
+    {
+        width: 360px;
+        height: 500px;
+    }
+    .contacto-us
+    {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .social-media
+    {
+        width: 90%;
+        justify-content: space-evenly;
+    }
+    .social-media-icon
+    {
+        margin-left: 0;
+    }
+    .social-media i
+    {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 390px)
+{
+    .fondo-form
+    {
+        width: 315px;
+    }    
+}
